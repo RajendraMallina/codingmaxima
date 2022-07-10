@@ -17,9 +17,4 @@ public class CodingmaximaApplication {
 		SpringApplication.run(CodingmaximaApplication.class, args);
 	}
 
-	@RequestMapping(path="/postevent", method = RequestMethod.POST)
-	public String getEndpoint(@RequestBody String str){
-		return "end point triggered";
-	}
-
 }
